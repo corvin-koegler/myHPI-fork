@@ -131,7 +131,6 @@ class MinutesList(BasePage):
         return context
 
 
-@register_snippet
 class MinutesLabel(TagBase):
     free_tagging = False
     color = CharField(max_length=7, default="#000000")
